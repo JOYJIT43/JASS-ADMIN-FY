@@ -1,0 +1,51 @@
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">User
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a routerLink="user/list">List</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Admin Credentials
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a routerLink="admincredential/list">List</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Admin Privileges
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a routerLink="adminprivilege/view">View</a>
+      <a routerLink="adminprivilege/edit">Edit</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Co-Ordinator
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a routerLink="coordinator/list">List</a>
+      <a routerLink="coordinator/edit">Edit</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Subject
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a routerLink="subject/view">View</a>
+      <a routerLink="subject/create">Create</a>
+      <a routerLink="subject/edit">Edit</a>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
